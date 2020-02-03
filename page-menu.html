@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Menu｜Sample洋菓子店</title>
+
+    <meta property="og:title" content="Sample洋菓子店">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://ayakakusakari.com/sample-pastry">
+	<meta property="og:image" content="https://ayakakusakari.com/sample-pastry/img/ogp.jpg">
+	<meta property="og:site_name" content="Sample洋菓子店">
+	<meta property="og:description" content="">
+	<meta name="twitter:card" content="summary_large_image">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css?ver=5.8.2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/css/drawer.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="inner">
+
+            <div class="header-logo"><a href="#">Sample洋菓子店</a></div>
+
+	        <nav class="header-nav">
+                <ul class="header-list">
+                    <li class="menu-item"><a href="#">Top</a></li>
+                    <li class="menu-item"><a href="#">About</a></li>
+                    <li class="menu-item"><a href="#">News</a></li>
+                    <li class="menu-item"><a href="#">Menu</a></li>
+                    <li class="menu-item"><a href="#">Access</a></li>
+                </ul>
+            </nav><!-- header-nav -->
+
+            <div class="drawer drawer--left">
+                    
+                <button type="button" class="drawer-toggle drawer-hamburger">
+                    <span class="sr-only">toggle navigation</span>
+                    <span class="drawer-hamburger-icon"></span>
+                </button><!-- /drawer-hamburger -->
+                
+                <nav class="drawer-nav" role="navigation">
+                    <ul class="drawer-menu">
+                        <li><a class="drawer-menu-item" href="#">Top</a></li>
+                        <li><a class="drawer-menu-item" href="#">About</a></li>
+                        <li><a class="drawer-menu-item" href="#">News</a></li>
+                        <li><a class="drawer-menu-item" href="#">Menu</a></li>
+                        <li><a class="drawer-menu-item" href="#">Access</a></li>
+                    </ul>
+                </nav><!-- /drawer-nav -->
+
+            </div><!-- /drawer -->
+
+        </div><!-- /inner -->
+    </header><!-- /header -->
+
+    <div id="menu-main"></div>
+
+    <div id="menu-contents">
+        <div class="inner">
+            
+            <h1 class="contents-title">Menu</h1>
+
+            <div class="menu-item">
+
+                <div class="menu-item-img">
+					<img src="<?php echo get_template_directory_uri() ?>/img/cake.jpg" alt="cake">
+				</div>
+	
+				<div class="menu-item-txt">
+
+                    <p>Sample洋菓子店では、</p>
+                    <p><i class="fas fa-caret-right"></i> 生菓子<br><i class="fas fa-caret-right"></i> 焼き菓子<br><i class="fas fa-caret-right"></i> ギフト</p>
+                    <p>を取り揃えております。</p>
+                    <p>季節限定のスイーツもございますので、店頭にてご確認ください。</p>
+					
+				</div><!-- /menu-item-txt -->
+
+            </div><!-- /menu-item -->
+
+            <div class="menu-description-wrapper">
+
+                <div class="menu-description">
+
+                    <h3 class="sub-title">生菓子</h3>
+    
+                    <div class="cake-items">
+    
+                        <div class="cake-item">
+                            <div class="cake-item-img">
+                                <img src="<?php echo get_template_directory_uri() ?>/img/menu1.jpg" alt="cake">
+                            </div>
+                            <div class="cake-item-body">
+                                <h4 class="cake-item-title">商品名１</h4>
+                                <div class="cake-item-excerpt">
+                                    <p>美味しいケーキです。</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="cake-item">
+                            <div class="cake-item-img">
+                                <img src="<?php echo get_template_directory_uri() ?>/img/menu1.jpg" alt="cake">
+                            </div>
+                            <div class="cake-item-body">
+                                <h4 class="cake-item-title">商品名２</h4>
+                                <div class="cake-item-excerpt">
+                                    <p>美味しいケーキです。</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="cake-item">
+                            <div class="cake-item-img">
+                                <img src="<?php echo get_template_directory_uri() ?>/img/menu1.jpg" alt="cake">
+                            </div>
+                            <div class="cake-item-body">
+                                <h4 class="cake-item-title">商品名３</h4>
+                                <div class="cake-item-excerpt">
+                                    <p>美味しいケーキです。</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div><!-- /cake-items -->
+
+                </div><!-- /menu-description -->
+
+                <div class="menu-description">
+
+                    <h3 class="sub-title">焼き菓子</h3>
+    
+                    <div class="baked-items">
+    
+                        <div class="baked-item">
+                            <div class="baked-item-img">
+                                <img src="<?php echo get_template_directory_uri() ?>/img/menu2.jpg" alt="baked">
+                            </div>
+                            <div class="baked-item-body">
+                                <h4 class="baked-item-title">商品名１</h4>
+                                <div class="baked-item-excerpt">
+                                    <p>美味しいクッキーです。</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="baked-item">
+                            <div class="baked-item-img">
+                                <img src="<?php echo get_template_directory_uri() ?>/img/menu2.jpg" alt="baked">
+                            </div>
+                            <div class="baked-item-body">
+                                <h4 class="baked-item-title">商品名２</h4>
+                                <div class="baked-item-excerpt">
+                                    <p>美味しいクッキーです。</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="baked-item">
+                            <div class="baked-item-img">
+                                <img src="<?php echo get_template_directory_uri() ?>/img/menu2.jpg" alt="baked">
+                            </div>
+                            <div class="baked-item-body">
+                                <h4 class="baked-item-title">商品名３</h4>
+                                <div class="baked-item-excerpt">
+                                    <p>美味しいクッキーです。</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div><!-- /baked-items -->
+
+                </div><!-- /menu-description -->
+
+                <div class="menu-description">
+
+                    <h3 class="sub-title">ギフト</h3>
+    
+                    <div class="gift-items">
+    
+                        <div class="gift-item">
+                            <div class="gift-item-img">
+                                <img src="<?php echo get_template_directory_uri() ?>/img/menu3.jpg" alt="gift">
+                            </div>
+                            <div class="gift-item-body">
+                                <h4 class="gift-item-title">商品名１</h4>
+                                <div class="gift-item-excerpt">
+                                    <p>贈り物にぴったりなギフトです。</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="gift-item">
+                            <div class="gift-item-img">
+                                <img src="<?php echo get_template_directory_uri() ?>/img/menu3.jpg" alt="gift">
+                            </div>
+                            <div class="gift-item-body">
+                                <h4 class="gift-item-title">商品名２</h4>
+                                <div class="gift-item-excerpt">
+                                    <p>贈り物にぴったりなギフトです。</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="gift-item">
+                            <div class="gift-item-img">
+                                <img src="<?php echo get_template_directory_uri() ?>/img/menu3.jpg" alt="gift">
+                            </div>
+                            <div class="gift-item-body">
+                                <h4 class="gift-item-title">商品名３</h4>
+                                <div class="gift-item-excerpt">
+                                    <p>贈り物にぴったりなギフトです。</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div><!-- /gift-items -->
+
+                </div><!-- /menu-description -->
+                
+            </div><!-- /menu-description-wrapper -->
+
+        </div><!-- /inner -->
+    </div><!-- /menu-contents -->
+
+    <footer id="footer">
+        <div class="inner">
+
+            <p>Copyright © 2019 Sample洋菓子店 All rights reserved.</p>
+
+        </div><!-- /inner -->
+    </footer><!-- /footer -->
+
+    <div class="floating">
+		<a href="#"><i class="fas fa-chevron-up"></i></a>
+	</div>
+
+    <!-- jquery & iScroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+    <!-- drawer.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/js/drawer.min.js"></script>
+
+    <script>
+        /* drawer */
+        $(document).ready(function() {
+            $('.drawer').drawer();
+        });
+
+        /* floating */
+        jQuery(window).on('scroll', function ($) {
+            if (100 < jQuery(this).scrollTop()) {
+                jQuery('.floating').fadeIn();
+            } else {
+                jQuery('.floating').fadeOut();
+            }
+        });
+
+        /* SmoothScroll */
+        jQuery('a[href^="#"]').click(function () {
+            var header = 0; // jQuery( '#header' ).height();
+            var speed = 300;
+            var id = jQuery(this).attr('href');
+            var target = jQuery('#' == id ? 'html' : id);
+            var position = jQuery(target).offset().top - header;
+            if (0 > position) {
+                position = 0;
+            }
+            jQuery('html, body').animate(
+                {
+                    scrollTop: position
+                },
+                speed
+            );
+            return false;
+        });
+        
+    </script>
+
+</body>
+
+</html>
